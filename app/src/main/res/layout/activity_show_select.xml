@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:focusable="true" android:focusableInTouchMode="true"
+    tools:context="myvan.myvanadm.ShowSelect">
+
+    <include layout="@layout/content_principal"
+        android:id="@+id/include"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnAtualizarSelect"
+        android:layout_marginBottom="15dp"/>
+
+
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="Atualizar"
+        android:id="@+id/btnAtualizarSelect"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/enter_button"
+        android:textStyle="normal"
+        android:textColor="#fff"
+         />
+
+</RelativeLayout>

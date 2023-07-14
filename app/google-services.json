@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "228189403561",
+    "firebase_url": "https://transportar-para-motoristas.firebaseio.com",
+    "project_id": "transportar-para-motoristas",
+    "storage_bucket": "transportar-para-motoristas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228189403561:android:0c3ba23c8889476d",
+        "android_client_info": {
+          "package_name": "myvan.myvanadm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228189403561-5em136m82efsc3lhndj5eum35r7cf1ru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "myvan.myvanadm",
+            "certificate_hash": "70311c7d1db78e888a556c25ca8bdb724bb89980"
+          }
+        },
+        {
+          "client_id": "228189403561-af47i0411s41ombbkghfvtf26prbhj02.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "myvan.myvanadm",
+            "certificate_hash": "7159bb3a1b6132a5db05352dbf84802b73c2d2a5"
+          }
+        },
+        {
+          "client_id": "228189403561-02q0lo8bf1b9efst0khbmhfn2pmbdc3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMKcrrc70CEydipmisyPlGgbZ9W-Ojnpw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228189403561-02q0lo8bf1b9efst0khbmhfn2pmbdc3q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

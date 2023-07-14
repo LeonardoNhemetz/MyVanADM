@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="15dp"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nome"
+        android:id="@+id/nameMaxTxt"
+        android:padding="10dp"
+        android:textColor="#ff951b"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="E-Mail"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:id="@+id/emailMaxTxt"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_toRightOf="@+id/textView5"
+            android:layout_toEndOf="@+id/textView5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="E-Mail:"
+            android:padding="10dp"
+            android:id="@+id/textView5"
+            android:layout_below="@+id/nameMaxTxt"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Senha:"
+            android:padding="10dp"
+            android:id="@+id/textView6"
+            android:layout_below="@+id/textView5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Senha"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:id="@+id/SenhaMaxTxt"
+            android:layout_alignBottom="@+id/textView6"
+            android:layout_alignLeft="@+id/emailMaxTxt"
+            android:layout_alignStart="@+id/emailMaxTxt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="END 1:"
+            android:padding="10dp"
+            android:id="@+id/textView7"
+            android:layout_below="@+id/SenhaMaxTxt"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="END"
+            android:padding="10dp"
+            android:id="@+id/End1MaxTxt"
+            android:textSize="13dp"
+            android:layout_alignBottom="@+id/textView7"
+            android:layout_toRightOf="@+id/textView7"
+            android:layout_toEndOf="@+id/textView7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="END 2:"
+            android:padding="10dp"
+            android:id="@+id/textView8"
+            android:layout_below="@+id/textView7"
+            android:layout_toLeftOf="@+id/End1MaxTxt"
+            android:layout_toStartOf="@+id/End1MaxTxt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="END"
+            android:padding="10dp"
+            android:textSize="13dp"
+            android:id="@+id/End2MaxTxt"
+            android:layout_alignBottom="@+id/textView8"
+            android:layout_toRightOf="@+id/textView8"
+            android:layout_toEndOf="@+id/textView8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="END 3:"
+            android:padding="10dp"
+            android:id="@+id/textView10"
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="END"
+            android:padding="10dp"
+            android:textSize="13dp"
+            android:id="@+id/End3MaxTxt"
+            android:layout_alignBottom="@+id/textView10"
+            android:layout_toRightOf="@+id/textView10"
+            android:layout_toEndOf="@+id/textView10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="END 4:"
+            android:padding="10dp"
+            android:id="@+id/textView12"
+            android:layout_below="@+id/textView10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="END"
+            android:padding="10dp"
+            android:id="@+id/End4MaxTxt"
+            android:textSize="13dp"
+            android:layout_alignBottom="@+id/textView12"
+            android:layout_toRightOf="@+id/textView12"
+            android:layout_toEndOf="@+id/textView12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Num 1:"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:id="@+id/textView9"
+            android:layout_below="@+id/textView12"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Num 1"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:id="@+id/Num1MaxTxt"
+            android:layout_alignTop="@+id/textView9"
+            android:layout_toRightOf="@+id/textView9"
+            android:layout_toEndOf="@+id/textView9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Num 2"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:id="@+id/Num2MaxTxt"
+            android:layout_below="@+id/textView9"
+            android:layout_toRightOf="@+id/textView13"
+            android:layout_toEndOf="@+id/textView13" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Num 2:"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:id="@+id/textView13"
+            android:layout_below="@+id/textView9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Num 3"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:id="@+id/Num3MaxTxt"
+            android:layout_below="@+id/Num2MaxTxt"
+            android:layout_alignLeft="@+id/Num2MaxTxt"
+            android:layout_alignStart="@+id/Num2MaxTxt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Num 3:"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:id="@+id/textView15"
+            android:layout_alignTop="@+id/Num3MaxTxt"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Num 4"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:id="@+id/Num4MaxTxt"
+            android:layout_below="@+id/Num3MaxTxt"
+            android:layout_alignLeft="@+id/Num3MaxTxt"
+            android:layout_alignStart="@+id/Num3MaxTxt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Num 4:"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:id="@+id/textView17"
+            android:layout_below="@+id/Num3MaxTxt"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Telefone"
+            android:padding="0dp"
+            android:textSize="14dp"
+            android:id="@+id/TelMaxTxt"
+            android:layout_alignBaseline="@+id/textView11"
+            android:layout_alignBottom="@+id/textView11"
+            android:layout_toRightOf="@+id/textView11"
+            android:layout_toEndOf="@+id/textView11" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Telefone:"
+            android:textSize="14dp"
+            android:padding="10dp"
+            android:id="@+id/textView11"
+            android:layout_below="@+id/Num4MaxTxt"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

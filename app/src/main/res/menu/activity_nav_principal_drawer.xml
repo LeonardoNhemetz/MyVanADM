@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cadastrar"
+            android:title="Cadastrar Passageiros" />
+        <item
+            android:id="@+id/nav_selecionar"
+            android:title="Selecionar Passageiros" />
+        <item
+            android:id="@+id/nav_info"
+            android:title="Informação Detalhada" />
+        <item
+            android:id="@+id/nav_mapaida"
+            android:title="Iniciar Mapa Ida" />
+        <item
+            android:id="@+id/nav_mapavolta"
+            android:title="Iniciar Mapa Volta" />
+        <item
+            android:id="@+id/nav_excluir"
+            android:title="Excluir Passageiros" />
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/nav_politics"
+            android:title="Politica de privacidade"/>
+    </group>
+
+
+
+</menu>
